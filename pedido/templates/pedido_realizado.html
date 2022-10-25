@@ -1,0 +1,21 @@
+{% extends 'base_produto.html'%}
+{% load static %}
+
+{% block 'head'%}
+<link rel="stylesheet" href="{% static 'css/produto.css'%}">
+{% endblock %}
+
+
+{% block 'conteudo' %}
+  <br>
+  {% if messages%}
+    {% for i in messages%}
+  <div style=" margin-bottom: 550px;" class="alert alert-success" role="alert">
+      <p style="text-align: center;">{{i}}</p> 
+    </div>
+ 
+    {%endfor%}
+
+  {%endif%}
+
+{%endblock%}

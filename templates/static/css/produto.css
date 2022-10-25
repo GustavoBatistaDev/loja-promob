@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,800&family=Nunito:ital,wght@1,600;1,800;1,1000&family=Roboto+Slab:wght@900&display=swap');
+
+.corBorda{
+    background-color: #3e2623;
+
+}
+
+.observacoes{
+
+    border: 1px solid #9a5a53;
+    width: 200px;
+    font-family: 'Nunito', serif;
+    font-weight: 900;
+
+}
+
+.tituloProduto{
+
+font-size: 60px;
+font-family: 'Nunito', serif;
+font-weight: 900;
+
+}
+
+.subTituloProduto{
+
+    font-size: 40px;
+    font-family: 'Nunito', serif;
+    font-weight: 900;
+}
+
+.bordaBottom{
+
+border-bottom: 1px solid gray;
+padding-bottom: 20px;
+
+}
+
+.botao{
+
+    background-color: #9a5a53;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    transition: 0.2s;
+    font-family: 'Nunito', serif;
+}
+
+body{
+    background-color: #FAF9F9;
+    font-family: 'Nunito', serif;
+    font-weight: 900;
+}
+
+.titulo{
+
+    color: #9a5a53;
+    font-family: 'Nunito', serif;
+    font-weight: 700;
+
+
+}
+
+.botao:hover{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid #9a5a53;
+}
+
+.cont{
+    
+    overflow:auto;
+    width: 350px;
+
+  }
+
+.cont img {
+    max-width: 100%;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    transition: all 2s;
+  }
+
+.cont:hover img {
+    -moz-transform: scale(1.8);
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+  }
+
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #9a5a53;
+    color: white;
+        
+    }
+    
+input[type=checkbox]:before {
+    content: "";
+    border-radius: 15px;
+    border: 1px solid #9a5a53;
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: #FAEDED;
+    }
+    
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: 1px solid #BC3535;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 5px;
+    left: 9px;
+}
+
+.tamanhoImg{
+    width: 500px;
+}
+
+@media (max-width: 1200px)
+{
+ 
+    .tamanhoImg{
+
+        width: 300px;
+    
+    }
+
+}
+
+.font-family{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-weight: 900;
+    background-color:#3e2623; ;
+    
+}
+
+.cor-icon{
+    color: #ffff;
+}
+
+
